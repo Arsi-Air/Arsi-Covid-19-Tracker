@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      Stay strong May <3<3
+      <span>Stay strong May &#60;3&#60;3</span>
     </div>
   );
 }
