@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      Hello World
+      Stay strong May <3<3
     </div>
   );
 }
