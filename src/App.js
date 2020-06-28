@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import { Comp1 } from './Comp1';
 
 function App() {
   return (
     <div>
-      <span>Stay strong May &#60;3&#60;3</span>
-      <br />ily
+      Covid 19 Tracker App
+      <Comp1 />
     </div>
   );
 }
