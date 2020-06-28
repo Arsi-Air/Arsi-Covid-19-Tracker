@@ -29,4 +29,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build ilovemay.surge.sh --token ${{ secrets.SURGETOKEN }}
+      run: surge ./build arsi-covid-19-tracker.surge.sh --token ${{ secrets.SURGETOKEN }}
