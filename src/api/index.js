@@ -43,12 +43,12 @@ export const fetchCountries = async () => {
     console.log(error);
   }
 };
-console.log(fetchCountries);
+// console.log(fetchCountries);
 
-export const fetchDataG = async () => {
-  try {
-    const { data: { confirmed, recovered, deaths } } = await axios.get(url);
+// export const fetchDataG = async () => {
+//   try {
+//     const { data: { confirmed, recovered, deaths } } = await axios.get(url);
 
-    return { confirmed, recovered, deaths };
-  } catch (error) {}
-}
+//     return { confirmed, recovered, deaths };
+//   } catch (error) {}
+// }
