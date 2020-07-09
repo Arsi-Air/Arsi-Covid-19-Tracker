@@ -1,0 +1,10 @@
+/*.charts {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+}*/
+
+.charts {
+  width: 85%;
+  margin: auto;
+}
