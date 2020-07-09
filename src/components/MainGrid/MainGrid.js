@@ -41,13 +41,13 @@ export default function MainGrid( { data, handleCountryChange, country }) {
   return (
     <div className={classes.root}>
       <Grid container spacing={2}>
-        <Grid item xs = {10}>
+        <Grid item xs = {12} lg = {10}>
           <Paper className={classes.paper}><CountryCards data={data} />
           <CountryPicker handleCountryChange = {handleCountryChange} /> 
           <Chart data= {data} country = {country} />
           </Paper>
         </Grid>
-        <Grid item xs = {2}>
+        <Grid item xs = {12} lg = {2}>
           <Paper className={classes.paper}><GlobalCards /></Paper>
         </Grid>
       </Grid>
