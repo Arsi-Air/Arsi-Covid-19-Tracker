@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 import cx from 'classnames';
-import axios from 'axios';
-import { fetchDataG } from '../../api';
+// import axios from 'axios';
+// import { fetchDataG } from '../../api';
 
 import styles from "./GlobalCards.module.css";
 
@@ -24,7 +24,7 @@ const url = 'https://covid19.mathdro.id/api';
 
 
 
-const GlobalCards = ({/*data: { confirmed, recovered, deaths, lastUpdate }*/}) => {
+const GlobalCards = () => {
 
   const [ globalData, setGlobalData] = useState();
 
