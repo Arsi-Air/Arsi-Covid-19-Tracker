@@ -1,0 +1,30 @@
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}     
+
+.image {
+  width: 370px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%
+  }
+
+  .image {
+    width: 50%
+  }
+}
+
+.makeStyles-paper-2 {
+  background-color: red;
+}
