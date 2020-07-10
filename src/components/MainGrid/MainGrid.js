@@ -8,6 +8,7 @@ import Chart from '../Chart/Chart';
 import CountryPicker from '../CountryPicker/CountryPicker';
 import  styles from './MainGrid.module.css';
 import covidimg from '../../images/cimg.png';
+import { Header } from '../Header/Header'
 
 // import { fetchData } from '../../api';
 
@@ -45,6 +46,7 @@ export default function MainGrid( { data, handleCountryChange, country }) {
     <div className={classes.root}>
       <Grid container spacing={2} className = {styles.g1}>
         <Grid item xs = {12}>
+        <Header></Header>
         <img className={styles.image} src={covidimg} alt='Covid-19' />
         </Grid>
         <Grid item xs = {12} lg = {10}>
